@@ -1,0 +1,13 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 13 Mar 2024 00:00:14 at https://ares.pucp.edu.pe/pucp/notas/nownotpa/nownotpa;jsessionid=00006Q0-AYIpj6oES_VlsYbT8cO:1efkird97?accion=Ingresar&codigo=20226016&cicloano=2024&ciclo=00&tipociclo=00 +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "it, en, *" https://ares.pucp.edu.pe/pucp/notas/nownotpa/nownotpa;jsessionid=00006Q0-AYIpj6oES_VlsYbT8cO:1efkird97?accion=Ingresar&codigo=20226016&cicloano=2024&ciclo=00&tipociclo=00 -O1 "C:\Mie pagine Web\Prueba 2" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+00:00:15	Warning: 	Found for https://ares.pucp.edu.pe/robots.txt
+00:00:15	Warning: 	File has moved from https://ares.pucp.edu.pe/robots.txt to https://pandora.pucp.edu.pe/pucp/login?TARGET=https%3A%2F%2Fares.pucp.edu.pe%2Frobots.txt
+
+HTTrack Website Copier/3.49-2 mirror complete in 6 seconds : 7 links scanned, 6 files written (122221 bytes overall) [125744 bytes received at 20957 bytes/sec], 2.6 requests per connection
+(No errors, 2 warnings, 0 messages)

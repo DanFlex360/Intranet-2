@@ -1,0 +1,249 @@
+/* PUCP Intranet II style sheet */
+
+/* Define colores, letras y otros attributos de estilo  */
+
+/* color de fondo de la pagina */
+body { background-color: #FFFFFF;font-family: Arial Narrow; font-size: 10pt }
+
+/* manejo del menu */
+.pucpTablaMenu { align: right; border-width: 0; }
+.pucpCeldaMenu {background: #2C7D92; foreground: #FFFFFF; font-family: Arial; font-size: 8pt;}
+.pucpRefMenu {color: #FFFFFF; text-decoration: none;}
+
+/* ruta */
+.pucpRuta { color: #a52a2a; font-family: Arial; font-size: 8pt; }
+
+/* titulo */
+.pucpTablaTitulo {border: 0px;  width: 100%; }
+.pucpTitulo {font-family: Arial; font-size: 12pt; font-weight: bold; color:  #2C7D92;}	
+.pucpMisTitulos {font-family: Arial; font-size: 19pt; color:  #2C7D92;}	
+
+/* Informacion del registro */
+.pucpInfReg {font-family: Arial; font-size: 10pt; font-weight: bold; color: #4A96AC; }
+
+/* boton */
+.pucpBoton {border-width: 0;color: #FFFFFF; text-decoration: none; cursor: hand;}
+
+/* subtitulo */
+.pucpTablaSubTitulo {border: 0px;  width: 100%; background: #2C7D92;}
+.pucpSubTitulo {font-family: Arial; font-size: 10pt; color:  #FFFFFF}	
+
+/* campos */
+.pucpEtiq {font-family: Arial Narrow; font-size: 10pt }
+.pucpEtiqOblig {font-family: Arial Narrow; font-size: 10pt; font-weight: bold;  }
+.pucpEtiqEdicion {font-family: Arial Narrow; font-size: 10pt; color:  #2C7D92}
+.pucpCampo {font-family: Arial; font-size: 8pt }
+.pucpCriterio  {font-family: Arial Narrow; font-size: 10pt; color:  #2C7D92}
+.pucpValor  {font-family: Arial Narrow; font-size: 10pt }
+.pucpError {font-family: Arial Narrow; font-size: 10pt ; color:red }
+.pucpCampoNoEditable {font-family: Arial; font-size: 8pt ; background: Gainsboro;}
+
+/* tablas */
+.pucpCeldaTitulo {font-family: Arial Narrow; font-size: 10pt ; background: #4A96AC; 
+	color: #FFFFFF; height: 16pt;}
+.pucpCeldaGris {font-family: Arial; font-size: 8pt ; background: Gainsboro;}
+.pucpCelda {font-family: Arial; font-size: 8pt; background: White;}
+
+.pucpCeldaRojo {font-family: Arial, Helvetica, sans-serif; font-size: 8pt; background:White;color:#FF0000;}
+.pucpNro {font-family: Arial; font-size: 8pt; color: DarkGray;}
+.pucpCeldaTotal {font-family: Arial; font-size: 8pt; background: White; font-weight: bold;}
+.pucpLinkCelda  {font-family: Arial; font-size: 8pt; text-decoration: none; background: White; color: #2C7D92;}
+.pucpLinkCeldaGris  {font-family: Arial; font-size: 8pt; text-decoration: none; background: Gainsboro; color: #2C7D92;}
+.pucpCeldaTituloEst {font-family: Arial Narrow; font-size: 10pt ; background:Gainsboro ; 
+	color: black; height: 16pt;}
+.pucpErrorCelda {font-family: Arial; font-size: 8pt ; color:red }
+.pucpCeldaTituloOSSP {font-family: Arial Narrow; font-size: 10pt ; background: #a52a2a; color: #FFFFFF; height: 16pt;}
+
+/* links */
+.pucpLinkMenu  {font-family: Arial; font-size: 8pt; align: center; color: #2C7D92;}
+.pucpLink  {font-family: Arial; font-size: 10pt; text-decoration: none; color: #2C7D92;}
+.pucpRayaLink  {font-family: Arial; font-size: 10pt; color: #2C7D92;}
+.pucpMailLink  {font-family: Arial; font-size: 8pt; text-decoration: none; color: #2C7D92;}
+.pucpLinkManual  {font-family: Arial; font-size: 12pt; text-decoration: none; color: #2C7D92; font-weight: bold}
+.pucpLinkOS {font-family: Arial Narrow; font-size: 10pt; text-decoration: none; color: #FFFFFF;}
+
+/* Texto en los frames superiores de Internet e Intranet*/
+.pucpTituloPUCP {font-family: Arial; font-size: 12pt; font-weight: bold; color:  #000000;}
+.pucpTituloIcono {font-family: Arial; font-size: 8pt; color:  #000000;}
+.pucpTituloLogin {font-family: Arial; font-size: 20pt; color:  #2C7D92;}
+.pucpLogin {font-family: Arial; font-size: 10pt;}
+.pucpUnificarClaves {font-family: Arial Narrow; font-size: 8pt; color:  #000000;}
+.pucpCerrarSesion {font-family: Arial; font-size: 20pt; font-weight: bold; color:  #000000;}
+.pucpException {font-family: Arial; font-size: 12pt }
+.pucpMisComunicaciones {font-family: Arial; font-size: 10pt }
+
+/* Mensajes estandares */
+.pucpMensaje {font-family: Arial; font-size: 12pt }
+
+/* Documentos */
+.pucpTituloNoticia {font-family: Arial ; font-size: 10pt;}
+.pucpSubTituloNoticia {font-family: Arial; font-size: 8pt; color: #4A96AC;}
+.pucpNoticia {font-family: Arial; font-size: 8pt; }
+.pucpNoticiaInf {font-family: Arial; font-size: 8pt; color:#CC0000; }
+.pucpVerNoticia {font-family: Arial ; font-size: 8pt; }
+.pucpTituloDoc {font-family: Arial, Helvetica, sans-serif ; font-size: 10pt; background: White; color: #4A96AC;}
+.pucpDato {font-family: Arial, Helvetica, sans-serif ; font-size: 8pt;}
+.pucpDatoRes {font-family: Arial, Helvetica, sans-serif ; font-size: 8pt; color: #4A96AC;}
+
+/* manejo de tabs */
+.pucpTablaTituloTab {border: 0px;  width: 100%; }
+.pucpCeldaTabDesactivo {background: #4A96AC;  font-family: Arial Narrow; font-size: 10pt; color:  #FFFFFF;}
+.pucpCeldaTabActivo {font-family: Arial Narrow;  font-size: 10pt ; background: #2C7D92; color: #FFFFFF;}
+.pucpRefTab {color: #FFFFFF; text-decoration: none;}
+
+/* Hora PUCP */
+
+.pucpHora {font-family: Arial; font-size: 25pt }
+
+/* Nombre del usuario y fecha de ingreso al pasar el login*/
+.pucpNombreUsuario {font-family: Arial, Helvetica, sans-serif ; font-size: 10pt; color: #FFFFFF;}
+.pucpFechaIngreso {font-family: Verdana, Arial, Helvetica, sans-serif ; font-size: 7pt; color: #FFFFFF;}
+
+/* Info y Tips */
+.pucpTablaInfo {background:#FFFFCC; border:1px solid #96965E; padding:5px;margin-top:12px;margin-botton:12px}
+.pucpInfo {font-family: tahoma,sans-serif; font-size: 11px;}
+
+.pucpNewBoton {background: red;text-decoration: none; cursor: hand; border:1px solid #96965E; }
+.pucpNewLink  {font-family: Arial; font-size: 8pt; text-decoration: none; color: white;}
+
+/* formato verde */
+.pucpBotonVerdeOut{border:solid 1px #F1F1F1;background:#2C7D92;padding:0px 6px 0px 6px;color: #FFFFFF;}
+.pucpBotonVerdeOver{border:solid 1px #999;background:#CCC;padding:0px 6px 0px 6px;color: #000000;}
+.pucpSepBotonVerde{font:70% Verdana;color:#A9A9A9;padding:0px 1px;}
+#pucpEstBotonVerde{border-top:solid 1px #999;border-bottom:solid 1px #999;background:#FFFFFF;padding:2px 0px 2px 0px;font-size:100%;}
+#pucpEstBotonVerde td{font-size:100%;}
+#pucpEstBotonVerde a{font:70% Verdana;color:#FFFFFF;text-decoration:none;}
+
+/* Nuevos botones PUCP */
+button.pucpBotonCorto {
+    border-bottom: 2px #761818 solid;
+    border-right: 2px #761818 solid;
+    border-top: 2px #BD4848 solid;
+    border-left: 2px #BD4848 solid;
+    FONT-FAMILY: sans-serif;
+    background-color: #A40404;
+    color: white;
+    font-size: 8pt;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 2px;
+    margin-left: 2px;
+    font-stretch: ultra-expanded;
+    height: 18px;
+    min-width: 77px;
+    cursor:pointer;	
+	font-weight:normal;
+	white-space:nowrap;
+}
+
+button.pucpBotonLargo {
+    border-bottom: 2px #761818 solid;
+    border-right: 2px #761818 solid;
+    border-top: 2px #BD4848 solid;
+    border-left: 2px #BD4848 solid;
+    FONT-FAMILY: sans-serif;
+    background-color: #A40404;
+    color: white;
+    font-size: 8pt;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 2px;
+    margin-left: 2px;
+    font-stretch: ultra-expanded;
+    height: 18px;
+    WIDTH: 135px;     
+    cursor:pointer;	
+	font-weight:normal;
+	white-space:nowrap;
+}
+/* Fin nuevos botones PUCP */
+/* Nuevo submenu PUCP */
+
+.contenedorPucpSubMenu{
+	/*Nada*/
+}
+
+.contenedorPucpSubMenu.anchoAdaptable .pucpSubMenu{
+	width:auto;
+}
+
+
+.pucpSubMenu ,.pucpSubMenuItem{
+	font-family: arial, 'comic sans ms', technical ;
+	font-weight: normal ;
+	font-style: normal ;
+	font-size: 8pt ;
+	cursor: default ;
+	color: white !important;
+	text-align: left ;
+	width: 217px ;
+	height: 18px ;
+	padding-left: 3px !important;
+	padding-top: 2px !important;
+	padding-bottom:2px !important;
+	background-color: rgb(48, 151, 183) !important;
+	border-radius: 0px ;
+	border: 0px;
+	margin: 0px 1px 1px 1px !important;
+	cursor: pointer;
+	cursor: hand;
+}
+
+.open>.pucpSubMenu,.open>.pucpSubMenu:focus,.pucpSubMenu:hover ,.pucpSubMenuItem:hover{
+    text-decoration: none;
+    color: white !important;
+    background-color: rgb(34,113,157) !important;
+}
+
+.pucpSubMenuItem{
+	text-decoration: none;
+	margin-top:1px;
+}
+
+.pucpSubMenuItemList {
+    padding-bottom: 0!important;
+	padding-top: 1px ;
+	padding-top: 1px ;
+	border:none ;			
+	box-shadow:	none ;		
+	webkit-box-shadow::	none;	
+	border-radius:0px;
+	margin: 0px !important;			
+
+}
+/* Fin nuevo submenu PUCP */
+/* Pie de pagina */
+
+.pucppiehr{
+    border: none;
+    color: black;
+    background-color: black;
+    height: 1px;
+}
+
+.pucppie{	
+	width: 100%;	
+}
+.pucppiemovil{
+	display:none;
+}
+.pucppiedesktop{
+	display: table-cell;	
+}
+.divhorapucp{
+	width:10%;
+}
+
+@media (max-width: 767px){
+	.pucppiemovil{
+		display: block;	
+	}
+	.pucppiedesktop{
+		display:none;		
+	}
+	.divhorapucp{
+		width:100%;
+	}
+}
+/* Fin pie de pagina*/
+ 
